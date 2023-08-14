@@ -1,0 +1,67 @@
+form{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 450px;
+	height: 450px;
+}
+.name,
+.email,
+.subject{
+	padding: 10px;
+	border: 2px #efefef solid;
+}
+legend{
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+textarea{
+	padding: 10px;
+	resize: none;
+	border: 2px #efefef solid;
+}
+input:focus::placeholder{
+	color: transparent ;
+}
+textarea:focus::placeholder{
+	color: transparent ;
+}
+.submit{
+	width: 120px;
+	height: 40px;
+	color: #00e0d0;
+	font-weight: 500;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	border: #00e0d0 2px solid;
+	transition-duration: 0.5s;
+	background: none;
+}
+section{
+	width: 400px;
+	height: 450px;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+	gap: 30px;
+}
+h2{
+	margin: 0px;
+}
+img{
+	width: 150px;
+	height: 50px;
+}
+.container{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+	gap: 75px;
+}
